@@ -1,0 +1,27 @@
+.newcolletions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.newcolletions h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.newcolletions hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 30px;
+}

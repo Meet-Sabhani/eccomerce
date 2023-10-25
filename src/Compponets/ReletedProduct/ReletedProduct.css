@@ -1,0 +1,27 @@
+.reletedproduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height: 90vh; */
+}
+
+.reletedproduct h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.reletedproduct hr{
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.reletedproduct-items {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
